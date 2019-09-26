@@ -32,10 +32,16 @@
 | 5    | 图象识别            | CNN的提速与优化、向量化、Momentum、NAG、Adagrad、RMSprop、AdaDelta、Adam算法及实现 | 同上、3D方式载入                                             |
 | 6    | 图象识别            | 批量规范化 Batch Norm动机、作用、训练、推理、反向传播推导    | 同上、3D方式载入                                             |
 | 7    | 序列分析            | 循环神经网络RNN前向计算、反向传播推导                        | 源码生成目标数据集，无需下载                                 |
-| 8    | 指数分析            | 长短时记忆网络LSTM前向计算、反向传播推导、梯度裁剪           | 原始数据，需要自行预处理：./data/沪深300历史数据.csv ；<br>预处理后数据，可直接用于训练和验证：./data/hs300_data_seq_nodate.csv |
-| 9    | 情感分析            | 双向门控循环单元BiGRU前向计算、反向传播推导、Dropout正则化   | 原始数据，需自行预处理：[IMDB原始数据](http://ai.stanford.edu/~amaas/data/sentiment)、[nltk停用词表](http://www.nltk.org)、[50维40万英文词嵌入矩阵](https://nlp.stanford.edu/projects/glove)。<br>预处理后的词向量数据（一半数据量），可直接用于训练和验证。https://pan.baidu.com/s/1VZaUCceA6oEmkDaUB9oFJw 提取码 9xdu |
+| 8    | 指数分析            | 长短时记忆网络LSTM前向计算、反向传播推导、梯度裁剪           | 选择1，原始数据，需要自行预处理：./data/沪深300历史数据.csv ；<br>选择2，预处理后数据，可直接用于训练和验证：./data/hs300_data_seq_nodate.csv |
+| 9    | 情感分析            | 双向门控循环单元BiGRU前向计算、反向传播推导、Dropout正则化   | 选择1，原始数据，需自行预处理：[IMDB原始数据](http://ai.stanford.edu/~amaas/data/sentiment)、[nltk停用词表](http://www.nltk.org)、[50维40万英文词嵌入矩阵](https://nlp.stanford.edu/projects/glove)。<br>选择2，预处理后的词向量数据（一半数据量），可直接用于训练和验证。https://pan.baidu.com/s/1VZaUCceA6oEmkDaUB9oFJw 提取码 9xdu |
 
-​	
+### 勘误
+
+./勘误.pdf	
+
+
+
+### 欢迎交流
 
 欢迎同行交流[知乎专栏](<https://www.zhihu.com/people/xu-jerry-82/posts>) ，可从公众号 **JerryX007Srv** 获得更新提醒。
 

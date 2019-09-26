@@ -51,9 +51,9 @@ class Params:
     EPS = 1e-8
 
     INIT_RNG=1e-4
-    EPOCH_NUM = 6  # EPOCH
+    EPOCH_NUM = 10  # EPOCH
     MINI_BATCH_SIZE = 512  # batch_size
-    ITERATION = 1  # 每batch训练轮数
+    ITERATION = 5 # 每batch训练轮数
     TYPE_K = 10  # 分类类别
     VALIDATION_CAPACITY = 2000  # 验证集大小
     VAL_FREQ = 5  # val per how many batches
