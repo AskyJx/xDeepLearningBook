@@ -11,10 +11,6 @@
 
 [京东图书](https://item.jd.com/12698534.html  "京东折扣")    [当当图书](http://product.dangdang.com/27943471.html  "当当")
 
-#### 电子书
-
-[亚马逊电子书]([https://www.amazon.cn/dp/B07ZJ5LD1C/ref=sr_1_1?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&keywords=%E5%AE%9E%E6%88%98%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95&qid=1586619079&sr=8-1](https://www.amazon.cn/dp/B07ZJ5LD1C/ref=sr_1_1?__mk_zh_CN=亚马逊网站&keywords=实战深度学习算法&qid=1586619079&sr=8-1)"kindle电子书")     [知乎电子书](https://www.zhihu.com/pub/book/119647254 "知乎电子书")
-
 ### 配套示例源码与数据下载说明。
 
 不借助**深度学习框架**，零起点实现神经网络的重要算法。
