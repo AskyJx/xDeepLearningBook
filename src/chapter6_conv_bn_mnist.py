@@ -36,7 +36,7 @@ exec_name = os.path.basename(__file__)
 trace_file = trace_file_path + exec_name + ".data"
 
 # 训练数据
-path_minst_unpack = 'F:\cwork\Project\TF_py3.6\MNIST_data_unpack'
+path_minst_unpack = 'D:\data\MNIST\MNIST_data_unpack'
 
 # General params
 class Params:
