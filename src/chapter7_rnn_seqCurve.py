@@ -101,9 +101,9 @@ class SeqData(object):
 
     def initData(self):
         # 用正弦函数生成训练和测试数据集合。
-        # (1w+1k)*0.01
+        # (1w+10)*0.01
         test_start = (Params.TRAINING_EXAMPLES + Params.TIMESTEPS) * Params.SAMPLE_GAP
-        #  (1w+1k)*0.01 + (1w+1k)*0.01
+        #  (1w+10)*0.01 + (1k+10)*0.01
         test_end = test_start + (Params.TESTING_EXAMPLES + Params.TIMESTEPS) * Params.SAMPLE_GAP
 
         # np.linspace 生成等差数列(start-首项,stop-尾项,number-项数,endpoint-末项是否包含在内，默认true包含)

@@ -28,7 +28,7 @@ class Tools:
 
     # 执行环境内存充裕blas方法较快
     # 否则使用jit后的np.matmul方法
-    @numba.jit
+    #@numba.jit
     def matmul(a, b):
         return np.matmul(a, b)
 
