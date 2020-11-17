@@ -171,11 +171,11 @@ def main_rnn():
 
     # 定义网络结构，支持各层使用不同的优化方法。
 
-    optmParamsRnn1 = (Params.BETA1,Params.EPS)
-    optimizer = AdaDeltaOptimizer
+    # optmParamsRnn1 = (Params.BETA1,Params.EPS)
+    # optimizer = AdaDeltaOptimizer
 
-    # optmParamsRnn1 = (Params.BETA1, Params.BETA2, Params.EPS)
-    # optimizer = AdamOptimizer
+    optmParamsRnn1 = (Params.BETA1, Params.BETA2, Params.EPS)
+    optimizer = AdamOptimizer
 
     # rnn
     #rnn1 = RnnLayer('rnn1',Params.MINI_BATCH_SIZE,Params.HIDDEN_SIZE,3,optimizer,optmParamsRnn1,Params.DTYPE_DEFAULT,Params.DROPOUT_R_RATE,Params.INIT_RNG)
