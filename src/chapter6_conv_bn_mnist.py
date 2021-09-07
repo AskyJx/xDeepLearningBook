@@ -199,7 +199,7 @@ def main():
                          Params.POOL1_STRIDES, False, Params.DTYPE_DEFAULT)
 
     # 在Conv2和relu/pool2之间加入bn2,conv2的输出不再激活
-    conv2 = ConvLayer('conv2', Params.MINI_BATCH_SIZE, Params.IMAGE_SIZE, Params.CONV1_O_DEPTH,
+    conv2 = ConvLayer('conv2', Params.MINI_BATCH_SIZE, Params.CONV2_O_SIZE, Params.CONV1_O_DEPTH,
                       Params.CONV2_F_SIZE, Params.CONV2_O_DEPTH,
                       Params.CONV2_O_SIZE, Params.CONV2_STRIDES,
                       NoAct, AdamOptimizer,optmParamsAdam, Params.DTYPE_DEFAULT,Params.INIT_W)

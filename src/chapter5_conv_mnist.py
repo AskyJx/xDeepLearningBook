@@ -193,7 +193,7 @@ def main():
                          Params.POOL1_STRIDES, False, Params.DTYPE_DEFAULT)
 
     # 在Conv2
-    conv2 = ConvLayer('conv2', Params.MINI_BATCH_SIZE, Params.IMAGE_SIZE, Params.CONV1_O_DEPTH,
+    conv2 = ConvLayer('conv2', Params.MINI_BATCH_SIZE, Params.CONV2_O_SIZE, Params.CONV1_O_DEPTH,
                       Params.CONV2_F_SIZE, Params.CONV2_O_DEPTH,
                       Params.CONV2_O_SIZE, Params.CONV2_STRIDES,
                       ReLU, AdamOptimizer,optmParamsAdam, Params.DTYPE_DEFAULT,Params.INIT_W)
